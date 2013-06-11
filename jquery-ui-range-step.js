@@ -36,17 +36,17 @@
 	                    }
 	                });
 
-	                if (minDistance < this.options.max){
-	                	this.value(stepValues[minI]);
-
-		             }
-	                else{
-		                this.value(currentvalue);
-		              
-		                }  
-	                	                
-				 }
-			 });
+			        if (minDistance < this.options.max){
+			        	this.value(stepValues[minI]);
+			
+			        }
+			        else{
+			                this.value(currentvalue);
+			              
+			            }  
+			        	                
+			 }
+		    });
  
 		 }
  })(jQuery);
